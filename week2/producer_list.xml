@@ -1,0 +1,5 @@
+<producer>
+    <Location name="SJC-1">
+        <Node ip="172.26.98.6"/>
+    </Location>
+</producer>

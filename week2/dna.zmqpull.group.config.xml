@@ -1,0 +1,14 @@
+<Zmq-Group-Config config_version="1">
+    <Group name = "MA-BCL" >
+        <Config name="ZmqListener" path="/ghostcache/zmq_pull/mdt/dnadir.zmqpull.config/zmq_listener.config.xml" enabled="1"/>
+        <NodeSet>
+            <Node ip="172.26.98.55"     location="SJC-1"/>
+        </NodeSet>
+    </Group>
+  <!--  <Group name = "MA-Rawstore" >
+        <Config name="ZmqListener" path="/ghostcache/zmq_pull/mdt/dnadir.zmqpull.config/zmq_rawstore_listener.config.xml" enabled="1"/>
+        <NodeSet>
+            <Node ip="172.26.98.55"     location="SJC-1"/>
+        </NodeSet>
+    </Group>-->
+</Zmq-Group-Config>

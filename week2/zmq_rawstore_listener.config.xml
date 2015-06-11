@@ -1,0 +1,24 @@
+<Config>       
+        <Properties>
+            <Property name="LogDir" value="/usr/local/akamai/logs/"/>
+
+            <Property name="OutputDir" value="/ghostcache2/ac_writer/input/"/>
+            <Property name="WorkDir" value="/ghostcache2/zmq_pull/work/"/>
+
+            <!--LogLevel values DEBUG=0,INFO=1,WARN=2,ERROR=3,NONE=4-->
+            
+            <Property name="ProducerPort" value="11512"/>
+            <Property name="ProducerList" value="/ghostcache/zmq_pull/mdt/dnadir.zmqpull.config/producer_list.xml"/>
+
+            <Property name="OutputFilePrefix" value="qos"/>
+            <Property name="OutputFileSuffix" value="done"/>
+            <Property name="OutputMsgFormat" value="DECOMPRESSED"/>		
+
+        </Properties>
+
+	<QueryTable name="zmq_pull_perf">
+		<Property name="FileName" value="/usr/local/akamai/etc/zmq_pull/zmq_pull_perf.csv"/>
+		<Property name="Frequency" value="5"/>
+	</QueryTable>
+
+</Config>        
